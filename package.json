@@ -20,6 +20,9 @@
 		"url": "https://github.com/DJ-Glock/vscode-unescaper.git"
 	},
 	"main": "./out/extension.js",
+	"activationEvents": [
+		"onCommand:unescapeCharacters.replace"
+	],
 	"contributes": {
 		"commands": [
 			{
