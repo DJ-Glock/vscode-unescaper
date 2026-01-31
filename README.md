@@ -21,3 +21,4 @@ Hotkey: Ctrl + R + R (Windwos) / Cmd + R + R (Mac)
 ## Releases
 
 ### April 2024 - Initial version
+### January 2026 - Added other common characters to escape
