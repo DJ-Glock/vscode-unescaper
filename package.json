@@ -2,7 +2,7 @@
 	"name": "escape-characters-unescaper",
 	"displayName": "Unescaper",
 	"description": "Unescapes escaped characters like \\n.",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"publisher": "djglock",
 	"engines": {
 		"vscode": "^1.75.0"
