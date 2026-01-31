@@ -2,9 +2,12 @@
 
 VSCode extension replaces the following common escaped characters:
 ```
-\"
 \n
 \t
+\r
+\'
+\"
+\\
 ```
 
 Useful to make stack traces from logs prettier. 

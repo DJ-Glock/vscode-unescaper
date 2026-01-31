@@ -44,9 +44,13 @@ class Replacer {
     }
 
     replaceChars(inputString: string): string {
-        return inputString.replaceAll("\\n", "\n" as string)
+        return inputString
+            .replaceAll("\\n", "\n" as string)
             .replaceAll("\\t", "\t" as string)
-            .replaceAll(`\\"`, `"` as string)
+            .replaceAll("\\r", "\r" as string)
+            .replaceAll("\\\'", "'" as string)
+            .replaceAll(`\\\"`, `"` as string)
+            .replaceAll("\\\\", "\\" as string)
     }
 }
 
